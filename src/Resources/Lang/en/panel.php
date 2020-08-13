@@ -4,16 +4,16 @@ return [
     'content' =>'content' ,
     'blog' =>'blog' ,
 
-    'basic_information' =>'basic_information' ,
-    'postCategory_information'=>'postCategory_information',
-    'postCategory'=>'postCategory',
-    'new_postCategory'=>'new_postCategory',
-    'postCategories' =>'postCategories' ,
-    'id'=>'id',
-    'name'=>'name',
-    'slug'=>'slug',
-    'parent_id' =>'parent_id' ,
-    'images' =>'images' ,
+    'basic_information'         =>'basic_information' ,
+    'postCategory_information'  =>'postCategory_information',
+    'postCategory'              =>'postCategory',
+    'new_postCategory'          =>'new_postCategory',
+    'postCategories'            =>'postCategories' ,
+    'id'                        =>'id',
+    'name'                      =>'name',
+    'slug'                      =>'slug',
+    'parent_id'                 =>'parent_id' ,
+    'images'                    =>'images' ,
     'summary' =>'summary' ,
     'description' =>'description' ,
     'status' =>'status' ,
@@ -51,5 +51,15 @@ return [
     'images[main]' =>'images[main]' ,
 
     'meta' =>'meta' ,
+
+
+    'comments'            => 'comments',
+    'new_comment'        => 'new comment',
+    'comment_information' => 'comment information',
+    'email'               => 'email',
+    'user_id'             => 'user id',
+    'phone'               => 'phone',
+    'body'                => 'body',
+    'rate'                => 'rate',
 
 ];

@@ -57,23 +57,23 @@ class Comment extends CrudModel
                             [
                                 'name'    => 'email',
                                 'type'    => 'text',
-                                'visible' => 'ie',
+                                'visible' => 'e',
                             ],
                             [
                                 'name'    => 'user_id',
                                 'type'    => 'relation',
                                 'relation' => ['user', 'name'],
-                                'visible' => 'ie',
+                                'visible' => 'e',
                             ],
                             [
                                 'name'    => 'phone',
                                 'type'    => 'text',
-                                'visible' => 'ie',
+                                'visible' => 'e',
                             ],
                             [
                                 'name'    => 'body',
-                                'type'    => 'textaria',
-                                'visible' => 'ie',
+                                'type'    => 'textarea',
+                                'visible' => 'e',
                             ],
                             [
                                 'name'    => 'rate',
@@ -85,7 +85,7 @@ class Comment extends CrudModel
                                     '4' => "4 trans('comment::panel.star')",
                                     '5' => "5 trans('comment::panel.star')",
                                 ],
-                                'visible' => 'ie',
+                                'visible' => 'e',
                             ],
                             [
                                 'name'    => 'created_at',
